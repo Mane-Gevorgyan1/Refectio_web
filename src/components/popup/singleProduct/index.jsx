@@ -60,6 +60,7 @@ export const SingleProduct = ({ open, setOpen, product }) => {
                             <span>Столешница: {product?.top}</span>
                             <span>Длина: {product?.width}</span>
                             <span>Цена: {product?.price}</span>
+                            <span>{product?.description}</span>
                         </div>
                     </div>
                 </div>

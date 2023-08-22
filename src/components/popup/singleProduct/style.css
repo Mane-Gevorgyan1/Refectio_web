@@ -33,6 +33,7 @@
   position: relative;
   max-height: calc(100vh - 40px);
   gap: 20px;
+  overflow-y: auto;
 }
 
 .close {

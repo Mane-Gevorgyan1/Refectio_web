@@ -1,6 +1,6 @@
 import './style.css'
-import { Instagram, Mail, Telegram } from '../svg'
 import { Outlet } from 'react-router-dom'
+import { Instagram, Mail, Telegram } from '../svg'
 
 export const Layout = () => {
     return (
@@ -16,12 +16,11 @@ export const Layout = () => {
                 <div className='middleLayoutBlock'>
                     <p>Все производители</p>
                     <span onClick={() => window.location = '/auth/login'}>Вход/Регистрация</span>
+                    <span onClick={() => window.location = '/profile'}>Мой профиль</span>
                 </div>
             </div>
             <div className='layoutSeparator' />
-
             <Outlet />
-
             <div className='layoutSeparator' />
             <div className='bottomLayout'>
                 <div className='bottomLayoutBlock'>

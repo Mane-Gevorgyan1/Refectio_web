@@ -36,8 +36,7 @@ export const EachManufacturer = ({ manufacturers }) => {
                     {manufacturers?.products?.length && manufacturers?.products?.map((e, i) => (
                         <div
                             key={i}
-                            className='eachManuProduct'
-                            style={{ cursor: 'pointer' }}
+                            className='eachManuProduct cursor'
                             onClick={() => {
                                 setSelectedProduct(e)
                                 setOpenSingleProductPopup(true)
